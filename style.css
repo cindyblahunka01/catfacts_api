@@ -1,0 +1,26 @@
+body{
+    background: url('./Assets/cat1.jpg') left fixed, url('./Assets/cat2.jpg') center fixed, url('./Assets/cat5.jpg') right fixed;
+    /* background: url('./Assets/cat2.jpg') right fixed; */
+    margin-bottom: 60%;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-family: Roboto, sans-serif;
+    }
+h1{
+    font-size: 50px;
+    position: fixed;
+    top: 0;
+    left: 42%;
+}
+ul{
+    position: fixed;
+    top: 12%;
+    left: 5%;
+}
+li{
+    border: 2px solid lightseagreen;
+    border-radius: 5px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+}
